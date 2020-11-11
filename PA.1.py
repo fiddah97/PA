@@ -10,9 +10,8 @@ colours = [
 ]
 print(f'I have learned the RGB code for {len(colours)} colours so far.')
 colour = input("Please enter a colour name: ")
-input_color = 'White'
-RGB_code ='FFF'
-print(f'The RGB code for {input_color} is {RGB_code}.')
+colours_dict =dict(colours) 
+print(f'The RGB code for {colour} is {colours_dict[colours]}.')
 
 
 # Probleme 2
