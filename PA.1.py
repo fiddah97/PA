@@ -18,8 +18,13 @@ print(f'The RGB code for {colour} is {colours_dict[colours]}.')
 
 odd_list = [1, 3, 5, 7, 9]
 natural_list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-The_difference_between_the_two_list = natural_list[1:8:2]
-print(The_difference_between_the_two_list)
+odd_set = set(odd_list) 
+natural_set = set(natural_list) 
+difference_on= odd_set.difference(natural_set)
+difference_no= natural_set.difference(odd_set) 
+difference_no_list = list(difcerence_no) 
+print(difcerence_no_list) 
+
 
 # # problem 3
 locations = ['Italy','Jaban','londan','korea','Africa']
